@@ -6,7 +6,7 @@ using RunTracker.Services.Runs;
 namespace RunTracker.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class RunsController : ControllerBase
 {
     private readonly IRunService _runService;
