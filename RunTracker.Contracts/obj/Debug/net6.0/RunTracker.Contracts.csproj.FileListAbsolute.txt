@@ -1,0 +1,12 @@
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/bin/Debug/net6.0/RunTracker.Contracts.deps.json
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/bin/Debug/net6.0/RunTracker.Contracts.dll
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/bin/Debug/net6.0/RunTracker.Contracts.pdb
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.csproj.AssemblyReference.cache
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.AssemblyInfoInputs.cache
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.AssemblyInfo.cs
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.csproj.CoreCompileInputs.cache
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.dll
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/refint/RunTracker.Contracts.dll
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/RunTracker.Contracts.pdb
+/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/Debug/net6.0/ref/RunTracker.Contracts.dll

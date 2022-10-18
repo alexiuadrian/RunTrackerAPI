@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker/RunTracker.csproj": {}
+  },
+  "projects": {
+    "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
+        "projectName": "RunTracker.Contracts",
+        "projectPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
+        "packagesPath": "/Users/adialexiu/.nuget/packages/",
+        "outputPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adialexiu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker/RunTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker/RunTracker.csproj",
+        "projectName": "RunTracker",
+        "projectPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker/RunTracker.csproj",
+        "packagesPath": "/Users/adialexiu/.nuget/packages/",
+        "outputPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adialexiu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj": {
+                "projectPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
