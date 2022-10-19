@@ -1,31 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ErrorOr/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ErrorOr/1.0.1": {
+      "sha512": "4ALbolifN9sinir3tZGntBEoJso96JyvjnnsAaNxxB2QFEkVtzcCSlvGkp27RDKe3UIexiV/wQrFceWfr7S5XA==",
+      "type": "package",
+      "path": "erroror/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.1.0.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ErrorOr >= 1.0.1"
+    ]
   },
   "packageFolders": {
-    "/Users/adialexiu/.nuget/packages/": {}
+    "C:\\Users\\adial\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
+      "projectUniqueName": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj",
       "projectName": "RunTracker.Contracts",
-      "projectPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
-      "packagesPath": "/Users/adialexiu/.nuget/packages/",
-      "outputPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/",
+      "projectPath": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj",
+      "packagesPath": "C:\\Users\\adial\\.nuget\\packages\\",
+      "outputPath": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/adialexiu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\adial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,6 +76,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -59,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

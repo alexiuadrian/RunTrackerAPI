@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RunTracker.Contracts
-build_property.ProjectDir = /Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/
+build_property.ProjectDir = E:\Work\RunTrackerAPI\RunTracker.Contracts\

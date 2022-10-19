@@ -8,11 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "RunTracker/1.0.0": {
         "dependencies": {
+          "ErrorOr": "1.0.1",
           "RunTracker.Contracts": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "RunTracker.dll": {}
+        }
+      },
+      "ErrorOr/1.0.1": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -63,6 +72,9 @@
         }
       },
       "RunTracker.Contracts/1.0.0": {
+        "dependencies": {
+          "ErrorOr": "1.0.1"
+        },
         "runtime": {
           "RunTracker.Contracts.dll": {}
         }
@@ -74,6 +86,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ErrorOr/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ALbolifN9sinir3tZGntBEoJso96JyvjnnsAaNxxB2QFEkVtzcCSlvGkp27RDKe3UIexiV/wQrFceWfr7S5XA==",
+      "path": "erroror/1.0.1",
+      "hashPath": "erroror.1.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",

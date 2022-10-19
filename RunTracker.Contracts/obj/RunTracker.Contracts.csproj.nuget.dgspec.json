@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj": {}
+    "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj": {}
   },
   "projects": {
-    "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj": {
+    "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
+        "projectUniqueName": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj",
         "projectName": "RunTracker.Contracts",
-        "projectPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
-        "packagesPath": "/Users/adialexiu/.nuget/packages/",
-        "outputPath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/obj/",
+        "projectPath": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj",
+        "packagesPath": "C:\\Users\\adial\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adialexiu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

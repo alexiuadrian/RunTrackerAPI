@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BdujxNyg0gVLWxpPA7gfLeF0n9QDywKPsTjN7XkZfPCYTh/lnUHtyWjW0szTKoJDrp6ZnCf+Ch5X2owpHLjVuQ==",
+  "dgSpecHash": "NAWLlYPpP2rtE5wiv7l6p20iDoE14/Z/j9j/YQcGWIpONdCjF5QFFfkYeVQGeg6v3NPIsWM1ah7L9zfavCzk9Q==",
   "success": true,
-  "projectFilePath": "/Users/adialexiu/Desktop/Angular_dotNET/RunTracker/RunTracker.Contracts/RunTracker.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Work\\RunTrackerAPI\\RunTracker.Contracts\\RunTracker.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adial\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
